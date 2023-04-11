@@ -139,7 +139,7 @@ def read_companys_csv(csv_file):
 
 companys = read_companys_csv('companys.csv')
 
-nouse=input("Press Enter");
+nouse=input('Press Enter To Start');
 
 for company_name, state in companys:
     company = company_name# + ", " + state
